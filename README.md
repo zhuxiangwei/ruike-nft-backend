@@ -32,7 +32,7 @@
    阿里云短信sdk
    composer require alibabacloud/dysmsapi-20170525 2.0.9
 
-2. 数据库脚本存放在doc目录下，文件名ruike.sql，mysql -u -p进入数据库控制台然后source ruike.sql导入
+2. 数据库脚本存放在当前目录下，文件名ruike.sql，mysql -u -p进入数据库控制台然后source ruike.sql导入
 3. 前端接口服务，在webman目录下运行php start.php start -d，http端口12345
 4. 后端辅助服务，直接运行php main.php start -d，ws端口23456
 
